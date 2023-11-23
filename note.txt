@@ -1,0 +1,19 @@
+This is just a basic example of implementing GET, POST, PUT, and DELETE requests using express.js. Assumming that database journal_db exists with
+cats table inside.
+
+To test, I recommend using Postman for this. 
+
+-------------------------
+npm init
+npm install express
+npm install -g nodemon
+npm install cors
+npm install mysql2
+-------------------------
+
+In package.json inside scripts {}:
+    "start": "node ./src/index.js",
+    "start:dev": "nodemon ./src/index.js"
+
+ctrl + C to terminate batch job + enter Y
+npm run start 
